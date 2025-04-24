@@ -10,7 +10,7 @@ document.getElementById('confirm').addEventListener('click', () => {
   }
 
   // URL del Web App de Google Apps Script
-  const url = 'TU_URL_DEL_WEB_APP';  // Reemplaza esto con la URL de tu Web App
+  const url = 'https://script.google.com/macros/s/AKfycbzSRZQCgq8w1kwGu-hG1tbCS9buaqwcGWLzs8lfbQviGqx1zt673GO64E6CfM2I8DbWyQ/exec';  // Reemplaza esto con la URL de tu Web App
 
   // Enviar los datos al Web App de Google Apps Script
   fetch(url, {
